@@ -1,4 +1,4 @@
-# Project Name
+# RNBoilerplate
 
 A boilerplate code for react native projects.
 
