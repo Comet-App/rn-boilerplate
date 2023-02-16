@@ -6,13 +6,12 @@ A boilerplate code for react native projects.
 
 Include a table of contents to help readers quickly find the information they need. This could include things like:
 
-- Installation
+- Pre-requisites installations
 - Setup
 - Run
-- Contributing
-- License
+- Screenshot
 
-## Installation
+## Pre-requisites installations
 
 **Step 1: Node setup (using [nvm](https://github.com/nvm-sh/nvm))**
 
