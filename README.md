@@ -9,7 +9,7 @@ Include a table of contents to help readers quickly find the information they ne
 - Pre-requisites installations
 - Setup
 - Run
-- Screenshot
+- Screenshots
 
 ## Pre-requisites installations
 
@@ -108,3 +108,7 @@ In second terminal, start project for android or ios
 ```
 yarn android/ios
 ```
+
+## Screenshots
+
+![App](https://raw.githubusercontent.com/Comet-App/rn-boilerplate/master/screenshots/app.png)
