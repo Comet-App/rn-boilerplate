@@ -84,12 +84,8 @@ const config = {
   API_TIMEOUT: parseInt(process.env.API_TIMEOUT) || 5000,
   BUILD_TIMESTAMP: parseInt(process.env.BUILD_TIMESTAMP) || current_timestamp,
   API_URL: process.env.API_URL,
-  PUBLIC_URL: process.env.PUBLIC_URL,
-  S3_BUCKET_URL: process.env.S3_BUCKET_URL,
   APP_DOMAIN_NAME: process.env.APP_DOMAIN_NAME,
   APP_PACKAGE: process.env.APP_PACKAGE,
-  IOS_DEPLOYMENT_KEY: process.env.IOS_DEPLOYMENT_KEY,
-  ANDROID_DEPLOYMENT_KEY: process.env.ANDROID_DEPLOYMENT_KEY,
 };
 
 let template = `
