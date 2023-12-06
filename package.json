@@ -8,8 +8,8 @@
     "ios": "sh -c 'yarn generate-config-constant ${0} && react-native run-ios'",
     "start": "sh -c 'yarn generate-config-constant ${0} && react-native start'",
     "reset-cache": "yarn cache clean && react-native start --reset-cache",
-    "release-build-android": "sh -c 'yarn generate-config-constant ${0} && ./scripts/release-build-android.sh \"$*\"'",
-    "release-build-ios": "sh -c 'yarn generate-config-constant ${0} && ./scripts/release-build-ios.sh \"$*\"'",
+    "release-build:android": "sh -c 'yarn generate-config-constant ${0} && ./scripts/release-build-android.sh \"$*\"'",
+    "release-build:ios": "sh -c 'yarn generate-config-constant ${0} && ./scripts/release-build-ios.sh \"$*\"'",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
